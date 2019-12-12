@@ -162,7 +162,7 @@ champ de recherche pour filtrer cette liste.
 ### Q4 : 
 
 Créer une classe Pokemon (au même niveau que app-component) qui comporte un id et un nom dans *pokemon.ts* avec un constructeur. Nous compléterons la classe au fur et à
-mesure du TP.
+mesure du TP. 
 
 ```bash
 ng g class pokemon
@@ -172,7 +172,7 @@ ng g class pokemon
 ### Q5 : 
 
 Créer une liste fictive (4-5 éléments suffiront) de pokémons dans le composant précédemment
-créé (my-component.component.ts).
+créé (dans my-component.component.ts).
 
 ### Q6 : 
 
