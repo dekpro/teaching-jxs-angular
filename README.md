@@ -40,7 +40,7 @@ ng serve
 
 Observez bien le squelette du projet généré. Il vient avec un point d'entrée (main.ts) et le fichier index.html racine. Ce dernier charge un composant sous la directive (selector) *&lt;app-root>&lt;/app-root>*. Cette directive demande l'instantiation d'un composant *app* défini dans le répertoire *app*. Ce composant est défini par une classe *app.component.ts*, un template *app.component.html*, une classe de test *app.component.spec.ts*, un fichier de définition de module *app.module.html* et un fichier de style *app.component.css*. 
 
-Changez le template *my-component.html* en remplaçant le code du template par  les lignes suivantes. Vous constaterez que l'application est rechargée automatiquement. 
+Changez le template *app-component.html* en remplaçant le code du template par  les lignes suivantes. Vous constaterez que l'application est rechargée automatiquement. 
 
 ```html
 <div style="text-align:center">
@@ -148,6 +148,9 @@ Vous constaterez que dès que l'input est modifié par l'utilisateur, la vue con
 
 Créer un deuxième champs input en mode readonly et lié les deux par un id.  Afficher la valeur de l'id renseigné dans la balise *&lt;input>* venant d'être insérée.
 
+```ts
+  <input value = ... readonly>
+```
 
 ## Recherche dans une liste
 
@@ -158,21 +161,23 @@ champ de recherche pour filtrer cette liste.
 
 ### Q4 : 
 
-Créer une classe Pokemon qui comporte un id et un nom. Nous compléterons la classe au fur et à
+Créer une classe Pokemon (au même niveau que app-component) qui comporte un id et un nom dans *pokemon.ts* avec un constructeur. Nous compléterons la classe au fur et à
 mesure du TP.
 
 ```bash
 ng g class pokemon
 ```
+
+
 ### Q5 : 
 
 Créer une liste fictive (4-5 éléments suffiront) de pokémons dans le composant précédemment
-créé.
+créé (my-component.component.ts).
 
 ### Q6 : 
 
-Afficher la liste des pokémons dans [https://angular.io/guide/template-syntax#ngforof](https://angular.io/guide/template-syntax#ngforof)
-une balise *&lt;select>* en utilisant \*ngFor
+Afficher la liste des pokémons dans [https://angular.io/guide/template-syntax#ngFor](https://angular.io/guide/template-syntax#ngFor)
+une balise *&lt;select>* et *&lt;option>*  en utilisant \*ngFor
 
 ### Q7 : 
 
