@@ -238,7 +238,7 @@ particulier, l'API offre la liste des pokémons (api/v2/pokedex/1) ainsi que des
 pour chacun d'entre eux (api/v2/pokemon/54 ou api/v2/pokemon/psyduck). Nous allons utiliser cette
 API comme source d'information pour notre pokédex.
 
-Angular fournit un [service HTTP]() qui va nous permettre de communiquer avec PokéAPI. Angular
+Angular fournit un [https://angular.io/tutorial/toh-pt6](https://angular.io/tutorial/toh-pt6) (voir aussi exemple dans [https://guide-angular.wishtack.io/angular/http/utilisation-de-httpclient](https://guide-angular.wishtack.io/angular/http/utilisation-de-httpclient) qui va nous permettre de communiquer avec PokéAPI. Angular
 utilise l'injection de dépendances pour fournir les services. Cela permet en particulier d'instancier un
 service qu'une seule fois pour toute l'application ou bien une partie de celle-ci. Pour encapsuler l'accès à
 l'API, nous allons nous même créer un service. Un service Angular est en fait une classe.
@@ -278,7 +278,7 @@ Pokémon afin de recueillir ces informations.
 
 Créer un nouveau composant dédié à l'affichage des informations d'un pokémon. Utiliser le
 service précédemment créé pour récupérer les informations d'un pokémon. Combiner les différents
-mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques (moves, stats, etc.) d'un pokémon qui sont accessibles dans https://pokeapi.co/api/v2/pokemon/{id}.
+mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques (moves, stats, etc.) d'un pokémon qui sont accessibles dans https://pokeapi.co/api/v2/pokemon/{id} (exemple [https://pokeapi.co/api/v2/pokemon/1](https://pokeapi.co/api/v2/pokemon/1)).
 
 
 
