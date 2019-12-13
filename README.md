@@ -256,8 +256,8 @@ spécifier à Angular que votre service comporte une dépendance vers un autre s
 
 ### Q11 : 
 
-Créer une méthode pour récupérer la liste des pokémons en utilisant le service *http*.
-
+Créer une méthode pour récupérer la liste des pokémons en utilisant le service *http*. 
+Les pokémons se trouvent dans la partie "pokemon_entries" du résultat retourné par la requête http.
 ### Q12 : 
 
 Utiliser ce service dans le composant de recherche de pokémons pour remplacer la liste fictive de
