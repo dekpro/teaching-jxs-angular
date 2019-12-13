@@ -278,7 +278,10 @@ Pokémon afin de recueillir ces informations.
 
 Créer un nouveau composant dédié à l'affichage des informations d'un pokémon. Utiliser le
 service précédemment créé pour récupérer les informations d'un pokémon. Combiner les différents
-mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques (moves, stats, abilities, pokemon image dans sprites/front_default, etc.) d'un pokémon qui sont accessibles dans https://pokeapi.co/api/v2/pokemon/{id} (exemple [https://pokeapi.co/api/v2/pokemon/1](https://pokeapi.co/api/v2/pokemon/1)).
+mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques 
+(moves, stats, abilities, pokemon image dans sprites/front_default, etc.) d'un pokémon qui sont 
+accessibles dans https://pokeapi.co/api/v2/pokemon/{id} (exemple [https://pokeapi.co/api/v2/pokemon/1](https://pokeapi.co/api/v2/pokemon/1))
+et (capture rate, happiness etc) aussi dans https://pokeapi.co/api/v2/pokemon-species/{id} (exemple [https://pokeapi.co/api/v2/pokemon-species/1](https://pokeapi.co/api/v2/pokemon-species/1)).
 
 
 
