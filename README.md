@@ -278,7 +278,7 @@ Pokémon afin de recueillir ces informations.
 
 Créer un nouveau composant dédié à l'affichage des informations d'un pokémon. Utiliser le
 service précédemment créé pour récupérer les informations d'un pokémon. Combiner les différents
-mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques d'un pokémon.
+mécanismes de data-binding vus jusqu'ici pour afficher l'id, le nom et les statistiques (moves, stats, etc.) d'un pokémon qui sont accessibles dans https://pokeapi.co/api/v2/pokemon/{id}.
 
 
 
